@@ -4,39 +4,40 @@ import FAQ from "./FAQ";
 const faqData = [
   {
     id: 1,
-    question: "What services do you offer?",
+    question: "Quels services offrez-vous ?",
     answer:
-      "We provide 2D and 3D house plans, on-site execution of projects, and accurate cost estimation services to ensure a smooth home-building experience from start to finish.",
+      "Nous fournissons des plans de maison en 2D et 3D, l'exécution des projets sur site, et des services d'estimation précise des coûts pour garantir une expérience de construction fluide de bout en bout.",
   },
   {
     id: 2,
-    question: "How long does it take to complete a project?",
+    question: "Combien de temps faut-il pour compléter un projet ?",
     answer:
-      "The timeline depends on the complexity of the project, but we work efficiently to deliver both the design and construction phases on time without compromising quality.",
+      "Le délai dépend de la complexité du projet, mais nous travaillons efficacement pour livrer les phases de conception et de construction dans les délais sans compromettre la qualité.",
   },
   {
     id: 3,
-    question: "Can I make changes to the design during the process?",
+    question:
+      "Puis-je apporter des modifications au design pendant le processus ?",
     answer:
-      "Yes! We offer unlimited revisions on our 2D and 3D designs to ensure the final plan meets your exact vision.",
+      "Oui ! Nous offrons des révisions illimitées de nos conceptions en 2D et 3D pour garantir que le plan final corresponde exactement à votre vision.",
   },
   {
     id: 4,
-    question: "Do you handle the entire construction process?",
+    question: "Gérez-vous l'ensemble du processus de construction ?",
     answer:
-      "Yes, we manage the entire process, from initial design to on-site execution, ensuring your home is built to the highest standards.",
+      "Oui, nous gérons l'ensemble du processus, de la conception initiale à l'exécution sur site, en veillant à ce que votre maison soit construite selon les plus hauts standards.",
   },
   {
     id: 5,
-    question: "What kind of projects do you specialize in?",
+    question: "Quel type de projets spécialisez-vous ?",
     answer:
-      "We specialize in residential housing projects, including custom homes, renovations, and extensions. We tailor our services to fit your needs.",
+      "Nous nous spécialisons dans les projets résidentiels, y compris les maisons sur mesure, les rénovations et les extensions. Nous adaptons nos services pour répondre à vos besoins.",
   },
   {
     id: 6,
-    question: "How do I get started?",
+    question: "Comment commencer ?",
     answer:
-      "Contact us through our website, and we'll schedule an initial consultation to discuss your vision, requirements, and how we can bring your dream home to life.",
+      "Contactez-nous via notre site web, et nous planifierons une consultation initiale pour discuter de votre vision, de vos besoins, et comment nous pouvons réaliser votre maison de rêve.",
   },
 ];
 
@@ -47,9 +48,9 @@ export default function FAQSection() {
     setOpenId((openId) => (openId === id ? null : id));
   }
   return (
-      <div className="mb-9" id="faq">
-            <h2 className="font-bold text-blue-950 text-[1.8rem] text-center mt-[3rem] mb-2">
-        F.A.Q
+    <div className="mb-9" id="faq">
+      <h2 className="font-bold text-blue-950 text-[1.8rem] text-center mt-[3rem] mb-2">
+        Questions fréquemment posées
       </h2>
       {faqData.map((item) => (
         <FAQ

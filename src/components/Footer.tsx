@@ -19,7 +19,7 @@ export default function Footer() {
         </li>
         <li className="flex items-center content-center my-2 gap-5">
           <BsPhoneFill size={30} />
-          +325871457
+          +2694387767
         </li>
         <li className="flex items-center content-center gap-5 my-3">
           <BsBuildingFillExclamation size={30} />
@@ -31,7 +31,7 @@ export default function Footer() {
         </li>
       </ul>
       <div className="mt-5">
-        <p className="font-bold">Follow us on :</p>
+        <p className="font-bold">Suivez nous sur:</p>
         <ul>
           <li className="flex items-center content-center gap-5 my-3">
             <BsFacebook size={30} />
@@ -50,7 +50,7 @@ export default function Footer() {
       <div className="lg:text-[4.2rem] font-bold text-[2.5rem]">
         C.I.A.T
         <p className="italic text-[1rem] font-normal text-blue-100">
-          Designed and developed by Yassine Saindou
+        Conçu et développé par Yassine Saindou
         </p>
       </div>
     </footer>
