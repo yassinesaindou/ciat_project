@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="bg-herosm bg-cover bg-center bg-no-repeat py-[100px] px-7 lg:py-[200px] font-bold text-3xl lg:text-5xl rounded-lg">
       <div className="text-blue-50 max-w-[70%]   md:max-w-[60%]">
-        <p className=" lg:backdrop-blur-md">
+        <p className=" ">
           From Vision to Construction. Turn Your{" "}
           <span className="text-blue-500 ">Dream House</span> into reality.
         </p>
