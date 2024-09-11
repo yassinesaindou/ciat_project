@@ -7,7 +7,7 @@ export default function ContactForm() {
   return (
     <div id="contact">
       <h2 className="font-bold text-blue-950 text-[1.8rem] text-center mt-5 mb-2">
-        Contact us
+        Contactez Nous
       </h2>
       <form
         action="https://formspree.io/f/xyzgaywd"
