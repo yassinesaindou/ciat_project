@@ -3,10 +3,11 @@ import { FormEvent } from "react";
 export default function ContactForm() {
 
   function handleSubmit(e:FormEvent) {
-    e.preventDefault();
+    console.log(e.target);
+    
   }
   return (
-    <>
+    <div id="contact">
       <h2 className="font-bold text-blue-950 text-[1.8rem] text-center mt-5 mb-2">
         Contact us
       </h2>
@@ -24,7 +25,7 @@ export default function ContactForm() {
           Submit Message
         </button>
       </form>
-    </>
+    </div>
   );
 }
 interface Props {

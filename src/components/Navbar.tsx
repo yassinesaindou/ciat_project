@@ -9,7 +9,6 @@ function toggleOpen() {
 }
 
 function closeMenu() {
-  
   const navElements = document.getElementById("navElements");
   navElements?.addEventListener("click", () => {
     navElements?.classList.add("hidden");
@@ -31,7 +30,7 @@ export function Navbar() {
         <h1 className="text-3xl text-blue-500 font-bold ">C.I.A.T</h1>
         <div className="md:hidden">
           <BiMenu
-            onClick={() =>toggleOpen()}
+            onClick={() => toggleOpen()}
             id="menu"
             className="text-blue-600 cursor-pointer "
             size={30}
@@ -43,14 +42,16 @@ export function Navbar() {
        min-w-[100%] md:min-w-fit"
         id="navElements">
         <p className="hover:text-blue-700 cursor-pointer" onClick={closeMenu}>
-          Services
+          <a href="#services">Services</a>
         </p>
         <p className="hover:text-blue-700 cursor-pointer my-6 md:my-0">
-          Why C.I.A.T
+          <a href="#features">Why C.I.A.T</a>
         </p>
-        <p className="hover:text-blue-700 cursor-pointer">F.A.Q</p>
+        <p className="hover:text-blue-700 cursor-pointer">
+          <a href="#faq">F.A.Q</a>
+        </p>
         <button className="bg-blue-700 hover:bg-blue-900 text-blue-50 font-medium py-1 text-[1.1rem] px-5 rounded-full mt-3 md:mt-0">
-          Contact us
+          <a href="#contact">Contact us</a>
         </button>
       </div>
     </nav>

@@ -47,7 +47,7 @@ export default function FAQSection() {
     setOpenId((openId) => (openId === id ? null : id));
   }
   return (
-      <div className="mb-9">
+      <div className="mb-9" id="faq">
             <h2 className="font-bold text-blue-950 text-[1.8rem] text-center mt-[3rem] mb-2">
         F.A.Q
       </h2>

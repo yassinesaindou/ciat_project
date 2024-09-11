@@ -22,7 +22,7 @@ const data = [
 
 export default function Features() {
   return (
-    <div className="mb-8">
+    <div className="mb-8" id="features">
       <h2 className="font-bold text-blue-950 text-[1.8rem] text-center mt-5 mb-2">
         Why C.I.A.T
           </h2>
