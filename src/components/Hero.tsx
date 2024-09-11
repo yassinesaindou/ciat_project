@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="text-blue-50 max-w-[70%]   md:max-w-[60%]">
         <p className=" lg:backdrop-blur-md">
           From Vision to Construction. Turn Your{" "}
-          <span className="text-blue-700 ">Dream House</span> into reality.
+          <span className="text-blue-500 ">Dream House</span> into reality.
         </p>
       </div>
       <button className="bg-blue-700 hover:bg-blue-900 text-blue-50 text-[1rem]  lg:text-[1rem] font-medium   py-3 px-6 rounded-full mt-5">
